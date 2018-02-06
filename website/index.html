@@ -1,35 +1,56 @@
+<div id="centerwrap">
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Homework 1</title>
 </head>
 
-<body>
-    <header>
-        <h1>Arguellez,Alex</h1>
-        <h2>Welcome to IS445 Homework 1</h2>
-    </header>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-    <main>
-        <p>My SF City Trip</p>
-        <p>The California Landscape</p>
-        <p>Image 1</p>
-        <p>Image 2</p>
-        <p>Do people like my Page</p>
-    </main>
-    <footer>
-        <p>Image Max - Awesome page, great work, keep it up!</p>
-        <p>Image Manu - Looks really nice, beautiful pictures!</p>
-    </footer>
-</body>
+<link rel="stylesheet" type="text/css" href="styles.css">
 
+<body>
+    <header><h1>Arguellez, Alex</h1></header>
+    <hr/>
+    <p id="headline">Welcome to IS 445 Homework 1</p>
+    <main>
+        <img src="images/alex.jpg" alt="Picture of Alex">
+        <div class="boxed">
+            <h1>About Me</h1>
+            <h2>Education</h2>
+            <p>B.S.Information Systems Class of 2019</p>
+            <h3>Skills</h3>
+            <dl>
+                <dt>1. Troubleshooting</dt>
+                <dt>2. Tech Support</dt>
+                <dt>3. Leadership</dt>
+            </dl>
+            <h4>Expectations for this course</h4>
+            <p>I expect to learn how to create my own website for my future business</p>
+        </div>
+                <div class="boxed">
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                        <div class="button">
+                        <button type="submit">Send your message</button>
+                    </div>
+                    </div>
+                </form>
+        
+                
+
+    
+</body>
 </html>
+</div>
