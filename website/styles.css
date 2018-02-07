@@ -41,15 +41,12 @@ img {
   }
   
   label {
-    /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
     width: 400px;
     text-align: left;
   }
   
   input, textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
     font: 1em sans-serif;
   
     /* To give the same size to all text fields */
@@ -101,5 +98,8 @@ img {
       
       h3 {
           text-decoration: underline;
+      }
+      h1 {
+        text-align: center
       }
     
