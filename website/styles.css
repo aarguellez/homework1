@@ -6,7 +6,9 @@ hr {
     margin-right: 200px;
     margin-left: 200px;
 }
-
+hi {
+  text-align: center
+}
 #headline {
     text-align: center;
     font-style: italic;
