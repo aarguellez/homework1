@@ -27,10 +27,9 @@ img {
     border: 1px solid red ;
   }
   form {
-    /* Just to center the form on the page */
     margin: 0 auto;
     width: 400px;
-    /* To see the outline of the form */
+    height: 200px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -83,7 +82,7 @@ img {
        float: left;
         }
         #centerwrap { 
-          position: absolute;
+         position: absolute;
          top: 0px;
          left: 50%;
          margin-left: -500px; 
