@@ -104,13 +104,13 @@ img {
       }
       .boxed {
         width: 500px;
-        height: 600px;
-        border: 1px solid blue; 
+        height: 250px;
+        border: 5px solid red; 
     }
     
     . {
         width: 500px;
-        height: 600px;
+        height: 250px;
         padding: 50px;
-        border: 1px solid red;
+        border: 5px solid red;
     }
